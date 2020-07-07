@@ -14,7 +14,7 @@ class XylophoneApp extends StatelessWidget {
       child: FlatButton(
         color: color,
         onPressed: () {
-          playSound(1);
+          playSound(soundNumber);
         },
       ),
     );
@@ -36,7 +36,6 @@ class XylophoneApp extends StatelessWidget {
               buildKey(5, Colors.blue),
               buildKey(6, Colors.indigo),
               buildKey(7, Colors.purple),
-              buildKey(8, Colors.blueGrey),
             ],
           ),
         ),
